@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Panda White Cheese</title>
+
+        <link rel="icon" href="assets/media/logo.webp">
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+
+        <div class="responsiveNav">
+
+            <a href="index.html" class="homeLink">
+                <img src="assets/media/logo02.webp" alt="Arab Dairy Logo">
+            </a>
+
+            <div class="burgerMenu">
+                <span class="burgerMenuIcon" onclick="openNav()">&#9776;</span>
+            </div>
+        </div>
+
+        <div class="offCanvasNav" id="offCanvasNav">
+            <span onclick="closeNav()">&times;</span>
+            <ul>
+                
+                <li><a href="index.html">Home</a></li>
+                
+                <li><a href="about.html">About Us</a></li>
+
+                <li><a href="brands.html">Brands</a></li>
+
+
+                <li><a href="dairy-brand.html">Dairy</a></li>
+                
+                <li><a href="panda-brand.html">Panda</a></li>
+
+                <li><a href="gourmet-brand.html">Panda Gourmet</a></li>
+
+
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="investors.html">Investors</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <header>
+            <nav>
+                <a href="index.html" class="homeLink">
+                    <img src="assets/media/logo02.webp" alt="Arab Dairy Logo">
+                </a>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+
+                    <li>
+                        <div class="user-box">
+                            <div class="user-id">
+                                <div class="user-name first">
+                                    <a href="brands.html">Brands</a>
+
+                                    <!-- <div class="dropdown-arrow"></div> -->
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <a href="dairy-brand.html">
+                                            <li class="first-li ">Dairy</li>
+                                        </a>
+
+
+                                        <a href="panda-brand.html">
+                                            <li>Panda</li>
+                                        </a>
+
+
+                                        <a href="gourmet-brand.html">
+                                            <li class="last-li">Panda Gourmet</li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="investors.html">Investors</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <hr>
+
+            <div class="slideshow-container">
+                <div class="slide">
+                    <div class="image-container">
+                        <img src="assets/home/banners/1.webp" alt="Image 1">
+                        <div class="gradient"></div>
+                    </div>
+                </div>
+
+                <div class="slide fade">
+                    <div class="image-container">
+                        <img src="assets/home/banners/2.webp" alt="Image 1">
+                        <div class="gradient"></div>
+                    </div>
+                </div>
+
+                <div class="slide fade">
+                    <div class="image-container">
+                        <img src="assets/home/banners/3.webp" alt="Image 1">
+                        <div class="gradient"></div>
+                    </div>
+                </div>
+
+                <div class="slide fade">
+                    <div class="image-container">
+                        <img src="assets/home/banners/4.webp" alt="Image 1">
+                        <div class="gradient"></div>
+                    </div>
+                </div>
+
+                <div class="slide fade">
+                    <div class="image-container">
+                        <img src="assets/home/banners/5.webp" alt="Image 1">
+                        <div class="gradient"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="contact">
+            <h1>White Cheese</h1>
+        </div>
+
+        <div class="productContainer">
+            <div class="sizes">
+                <h2 id="product-title">Feta Cheese</h2>
+                <h2>Available Sizes</h2>
+                <form id="size-form">
+                    <input type="radio" id="size-125" name="size" value="125g" checked
+                        onclick="changeContainer('white01')">
+                    <label for="size-125">125g</label>
+
+                    <input type="radio" id="size-250" name="size" value="250g" onclick="changeContainer('white02')">
+                    <label for="size-250">250g</label>
+
+                    <input type="radio" id="size-500" name="size" value="500g" onclick="changeContainer('white03')">
+                    <label for="size-500">500g</label>
+                </form>
+            </div>
+
+            <!-- Slideshow for Size 125g -->
+            <div class="slideshow02 hidden" id="productContainer01">
+                <div class="slide02" id="slide-0-01">
+                    <img src="assets/brands/panda/panda/white cheese/125/feta.webp" alt="Feta Cheese">
+                </div>
+                <div class="slide02" id="slide-0-01">
+                    <img src="assets/brands/panda/panda/white cheese/125/PACK125-1.webp" alt="Istanbully Cheese">
+                </div>
+                <div class="slide02" id="slide-1-01" style="display:none;">
+                    <img src="assets/brands/panda/panda/white cheese/125/PACK125-2.webp" alt="Baramily Cheese">
+                </div>
+                <div class="slide02" id="slide-2-01" style="display:none;">
+                    <img src="assets/brands/panda/panda/white cheese/125/PACK125-3.webp" alt="Olive Cheese">
+                </div>
+                <div class="slide02" id="slide-3-01" style="display:none;">
+                    <img src="assets/brands/panda/panda/white cheese/125/PACK125-4.webp" alt="Light Cheese">
+                </div>
+                <button class="prev" onclick="prevSlide('white01')">&#10094;</button>
+                <button class="next" onclick="nextSlide('white01')">&#10095;</button>
+            </div>
+
+            <!-- Slideshow for Size 250g -->
+            <div class="slideshow02 hidden" id="productContainer02">
+                <div class="slide02" id="slide-0-02">
+                    <img src="assets/brands/panda/panda/white cheese/250/pack1.webp" alt="Feta Cheese">
+                </div>
+                <div class="slide02" id="slide-4-02" style="display:none;">
+                    <img src="assets/brands/panda/panda/white cheese/250/pack5.webp" alt="Istanbully Cheese">
+                </div>
+                <div class="slide02" id="slide-3-02" style="display:none;">
+                    <img src="assets/brands/panda/panda/white cheese/250/pack4.webp" alt="Baramily Cheese">
+                </div>
+                <div class="slide02" id="slide-1-02" style="display:none;">
+                    <img src="assets/brands/panda/panda/white cheese/250/pack2.webp" alt="Olive Cheese">
+                </div>
+                <div class="slide02" id="slide-2-02">
+                    <img src="assets/brands/panda/panda/white cheese/250/pack3.webp" alt="Light Cheese">
+                </div>
+                <button class="prev" onclick="prevSlide('white02')">&#10094;</button>
+                <button class="next" onclick="nextSlide('white02')">&#10095;</button>
+            </div>
+
+            <!-- Slideshow for Size 500g -->
+            <div class="slideshow02 hidden" id="productContainer03">
+                <div class="slide02" id="slide-0-03">
+                    <img src="assets/brands/panda/panda/white cheese/500/4.webp" alt="Feta Cheese">
+                </div>
+                <div class="slide02" id="slide-1-03">
+                    <img src="assets/brands/panda/panda/white cheese/500/5.webp" alt="Istanbully Cheese">
+                </div>
+                <div class="slide02" id="slide-4-03">
+                    <img src="assets/brands/panda/panda/white cheese/500/8.webp" alt="Baramily Cheese">
+                </div>
+                <div class="slide02" id="slide-2-03">
+                    <img src="assets/brands/panda/panda/white cheese/500/6.webp" alt="Olive Cheese">
+                </div>
+                <div class="slide02" id="slide-3-03">
+                    <img src="assets/brands/panda/panda/white cheese/500/7.webp" alt="Light Cheese">
+                </div>
+                <button class="prev" onclick="prevSlide('white03')">&#10094;</button>
+                <button class="next" onclick="nextSlide('white03')">&#10095;</button>
+            </div>
+        </div>
+
+        <div class="space">
+            <a href="panda-brand.html" class="back-arrow">
+                <img src="assets/arrow.webp" alt="" class="arrow">
+                Back to Panda
+            </a>
+        </div>
+
+
+
+
+        <footer>
+            <div class="content">
+                <div>
+                    <img src="assets/media/logo02.webp" alt=""> <br>
+                    <img src="assets/home/pandas/panda04.webp" alt="" class="panda-f">
+                </div>
+                <div>
+                    <h2>Find Us On</h2>
+                    <ul>
+                        <li>
+                            <img src="assets/media/youtube-168-svgrepo-com.webp" alt="">
+                            <a href="https://m.youtube.com/@ArabDairyPandaCheeseEgypt">Panda Cheese Egypt</a>
+                        </li>
+
+                        <li>
+                            <img src="assets/media/instagram-svgrepo-com (1).webp" alt="">
+                            <a href="https://www.instagram.com/pandacheeseegypt?igsh=MW5hNmkzZDh6aDd4dg==">Panda Cheese
+                                Egypt</a>
+                        </li>
+
+                        <li>
+                            <img src="assets/media/facebook-svgrepo-com (1).webp" alt="">
+                            <a href="https://www.facebook.com/PandaCheeseEgypt?mibextid=LQQJ4d">
+                                Panda Cheese Egypt
+                            </a>
+                        </li>
+
+                        <li>
+                            <img src="assets/media/phone-calling-svgrepo-com.webp" alt="">
+                            
+                            <a href="tel:16932">16932</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div>
+                    <h2>Quick Contact</h2>
+
+                    <form action="">
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" name="" placeholder="Email Address" id="" required>
+                        <textarea name="message" id="" placeholder="Your Message" required rows="4"></textarea>
+
+                        <input type="submit" value="Send" class="btn">
+                    </form>
+                </div>
+            </div>
+
+            <hr>
+
+            <p class="footer-p">&copy; Arab Dairy &reg; &bullet; All Rights Reserved &bullet; Terms & Conditions
+                &bullet; Privacy &bullet; Cookie Management Policy</p>
+
+        </footer>
+
+        <script src="script.js"></script>
+        <script src="panda.js"></script>
+    </body>
+
+</html>

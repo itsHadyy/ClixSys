@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+
+        <link rel="icon" href="assets/media/logo.webp">
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+
+        <div class="responsiveNav">
+
+            <a href="index.html" class="homeLink">
+                <img src="assets/media/logo02.webp" alt="Arab Dairy Logo">
+            </a>
+
+            <div class="burgerMenu">
+                <span class="burgerMenuIcon" onclick="openNav()">&#9776;</span>
+            </div>
+        </div>
+
+        <div class="offCanvasNav" id="offCanvasNav">
+            <span onclick="closeNav()">&times;</span>
+            <ul>
+                
+                <li><a href="index.html">Home</a></li>
+                
+                <li><a href="about.html">About Us</a></li>
+
+                <li><a href="brands.html">Brands</a></li>
+
+
+                <li><a href="dairy-brand.html">Dairy</a></li>
+                
+                <li><a href="panda-brand.html">Panda</a></li>
+
+                <li><a href="gourmet-brand.html">Panda Gourmet</a></li>
+
+
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="investors.html">Investors</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <header>
+            <nav>
+                <a href="index.html" class="homeLink">
+                    <img src="assets/media/logo02.webp" alt="Arab Dairy Logo">
+                </a>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+
+                    <li>
+                        <div class="user-box">
+                            <div class="user-id">
+                                <div class="user-name first">
+                                    <a href="brands.html">Brands</a>
+
+                                    <!-- <div class="dropdown-arrow"></div> -->
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <a href="dairy-brand.html">
+                                            <li class="first-li ">Dairy</li>
+                                        </a>
+
+
+                                        <a href="panda-brand.html">
+                                            <li>Panda</li>
+                                        </a>
+
+
+                                        <a href="gourmet-brand.html">
+                                            <li class="last-li">Panda Gourmet</li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="investors.html">Investors</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <hr>
+
+            <div class="slideshow-container">
+                <div class="slide">
+                    <div class="image-container">
+                        <img src="assets/home/banners/1.webp" alt="Image 1">
+                        <div class="gradient"></div>
+                    </div>
+                </div>
+
+                <div class="slide fade">
+                    <div class="image-container">
+                        <img src="assets/home/banners/2.webp" alt="Image 1">
+                        <div class="gradient"></div>
+                    </div>
+                </div>
+
+                <div class="slide fade">
+                    <div class="image-container">
+                        <img src="assets/home/banners/3.webp" alt="Image 1">
+                        <div class="gradient"></div>
+                    </div>
+                </div>
+
+                <div class="slide fade">
+                    <div class="image-container">
+                        <img src="assets/home/banners/4.webp" alt="Image 1">
+                        <div class="gradient"></div>
+                    </div>
+                </div>
+
+                <div class="slide fade">
+                    <div class="image-container">
+                        <img src="assets/home/banners/5.webp" alt="Image 1">
+                        <div class="gradient"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="contact">
+                <h1>Contact</h1>
+
+                <p>Do you have a comment or a question?</p>
+                <p>Or maybe you just want to tell us how much you love our cheese?</p>
+            </div>
+
+            <div class="contact-container">
+                <div>
+                    <form action="" class="form">
+                        <table>
+                            <tr>
+                                <td colspan="2">
+                                    <input type="text" placeholder="Purpose of the message.." required>
+                                </td>
+                                <td colspan="2">
+                                    <input type="email" placeholder="Email" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" rowspan="4">
+                                    <textarea rows="10" id="" required placeholder="The Messge.."></textarea>
+                                </td>
+                                <td>
+                                    <input type="text" placeholder="First Name" required>
+                                </td>
+                                <td>
+                                    <input type="text" placeholder="Last Name" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <input type="text" placeholder="Zip Code" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text" placeholder="Country" required>
+                                </td>
+                                <td>
+                                    <input type="text" placeholder="City" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <input type="phone" placeholder="Phone Number">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td colspan="2">
+                                    <input type="submit" value="Send Message" class="btn">
+                                </td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+
+                <hr>
+
+                <div class="info">
+                    <h2>Contact Info.</h2>
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="assets/location-sign.webp" alt="" class="location-sign">
+                            </td>
+                            <td>
+                                <strong>Head Office:</strong>
+                                Piece 29/1 - Industrial Zone, Katameya, Cairo, Egypt
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/location-sign.webp" alt="" class="location-sign">
+                            </td>
+                            <td>
+                                <strong>Factory:</strong>
+                                Sendebees - AlKanater Alkhayria - Qalubia, Egypt
+                                <br>
+                                <strong>Hotline:</strong>
+                                16932
+                                <br>
+                                <strong>Email:</strong>
+                                info@arabdairy.com
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div style="max-width:100%;overflow:hidden;width:100%;height:300px;">
+                                    <div id="embed-map-display" style="height:100%; width:100%;max-width:100%;"><iframe
+                                            style="height:100%;width:100%;border:0;" frameborder="0"
+                                            src="https://www.google.com/maps/embed/v1/place?q=cairo+&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                                    </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="content">
+                <div>
+                    <img src="assets/media/logo02.webp" alt=""> <br>
+                    <img src="assets/home/pandas/panda04.webp" alt="" class="panda-f">
+                </div>
+                <div>
+                    <h2>Find Us On</h2>
+                    <ul>
+                        <li>
+                            <img src="assets/media/youtube-168-svgrepo-com.webp" alt="">
+                            <a href="https://m.youtube.com/@ArabDairyPandaCheeseEgypt">Panda Cheese Egypt</a>
+                        </li>
+
+                        <li>
+                            <img src="assets/media/instagram-svgrepo-com (1).webp" alt="">
+                            <a href="https://www.instagram.com/pandacheeseegypt?igsh=MW5hNmkzZDh6aDd4dg==">Panda Cheese
+                                Egypt</a>
+                        </li>
+
+                        <li>
+                            <img src="assets/media/facebook-svgrepo-com (1).webp" alt="">
+                            <a href="https://www.facebook.com/PandaCheeseEgypt?mibextid=LQQJ4d">
+                                Panda Cheese Egypt
+                            </a>
+                        </li>
+
+                        <li>
+                            <img src="assets/media/phone-calling-svgrepo-com.webp" alt="">
+                            
+                            <a href="tel:16932">16932</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div>
+                    <h2>Quick Contact</h2>
+
+                    <form action="">
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" name="" placeholder="Email Address" id="" required>
+                        <textarea name="message" id="" placeholder="Your Message" required rows="4"></textarea>
+
+                        <input type="submit" value="Send" class="btn">
+                    </form>
+                </div>
+            </div>
+
+            <hr>
+
+            <p class="footer-p">&copy; Arab Dairy &reg; &bullet; All Rights Reserved &bullet; Terms & Conditions
+                &bullet; Privacy &bullet; Cookie Management Policy</p>
+
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>

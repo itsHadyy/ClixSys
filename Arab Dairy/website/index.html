@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Arab Dairy</title>
+
+        <link rel="icon" href="assets/media/logo.webp">
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+
+        <div class="responsiveNav">
+
+            <a href="index.html" class="homeLink">
+                <img src="assets/media/logo02.webp" alt="Arab Dairy Logo">
+            </a>
+
+            <div class="burgerMenu">
+                <span class="burgerMenuIcon" onclick="openNav()">&#9776;</span>
+            </div>
+        </div>
+
+        <div class="offCanvasNav" id="offCanvasNav">
+            <span onclick="closeNav()">&times;</span>
+            <ul>
+                
+                <li><a href="index.html">Home</a></li>
+                
+                <li><a href="about.html">About Us</a></li>
+
+                <li><a href="brands.html">Brands</a></li>
+
+
+                <li><a href="dairy-brand.html">Dairy</a></li>
+                
+                <li><a href="panda-brand.html">Panda</a></li>
+
+                <li><a href="gourmet-brand.html">Panda Gourmet</a></li>
+
+
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="investors.html">Investors</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <header class="homeHeader">
+            <nav>
+                <a href="index.html" class="homeLink">
+                    <img src="assets/media/logo02.webp" alt="Arab Dairy Logo">
+                </a>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+
+                    <li>
+                        <div class="user-box">
+                            <div class="user-id">
+                                <div class="user-name first">
+                                    <a href="brands.html">Brands</a>
+
+                                    <!-- <div class="dropdown-arrow"></div> -->
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <a href="dairy-brand.html">
+                                            <li class="first-li ">Dairy</li>
+                                        </a>
+
+
+                                        <a href="panda-brand.html">
+                                            <li>Panda</li>
+                                        </a>
+
+
+                                        <a href="gourmet-brand.html">
+                                            <li class="last-li">Panda Gourmet</li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="investors.html">Investors</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <hr>
+
+            <div class="slideshow-container">
+                <div class="slide">
+                    <div class="image-container">
+                        <img src="assets/home/banners/1.webp" alt="Image 1">
+                        <div class="gradient"></div>
+                    </div>
+                </div>
+
+                <div class="slide fade">
+                    <div class="image-container">
+                        <img src="assets/home/banners/2.webp" alt="Image 1">
+                        <div class="gradient"></div>
+                    </div>
+                </div>
+
+                <div class="slide fade">
+                    <div class="image-container">
+                        <img src="assets/home/banners/3.webp" alt="Image 1">
+                        <div class="gradient"></div>
+                    </div>
+                </div>
+
+                <div class="slide fade">
+                    <div class="image-container">
+                        <img src="assets/home/banners/4.webp" alt="Image 1">
+                        <div class="gradient"></div>
+                    </div>
+                </div>
+
+                <div class="slide fade">
+                    <div class="image-container">
+                        <img src="assets/home/banners/5.webp" alt="Image 1">
+                        <div class="gradient"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="home01">
+                <div class="content">
+                    <h1>Welcome to <br>Arab Dairy's Family</h1>
+                    <p>Arab Dairy was established in 1985 as a shareholding company. Production began in 1990, offering a
+                        variety of high-quality dairy products.
+                    </p>
+
+                    <a href="about.html" class="btn">Learn More</a>
+                </div>
+                <img src="assets/home/pandas/panda04.webp" alt="">
+            </div>
+
+            <div class="home02">
+                <h1>Our Brands</h1>
+                <a href="panda-brand.html">
+                    <div>
+                        <img src="assets/home/logos/panda.webp" alt="Panda Logo">
+                        <h2>Panda</h2>
+                    </div>
+                </a>
+
+                <a href="dairy-brand.html">
+                    <div>
+                        <img src="assets/home/logos/dairy.webp" alt="Dairy Logo">
+                        <h2>Dairy</h2>
+                    </div>
+                </a>
+
+                <a href="gourmet-brand.html">
+                    <div>
+                        <img src="assets/home/logos/panda-g.webp" alt="Panda Gourmet Logo">
+                        <h2>Panda Gourmet</h2>
+                    </div>
+                </a>
+            </div>
+
+            <div class="home03">
+
+                <h1>Recipes</h1>
+
+                <img src="assets/home/pandas/panda01.webp" alt="Panda Shopping Cart" class="panda01">
+                <img src="assets/home/pandas/panda02.webp" alt="Panda Chef" class="panda02">
+
+                <div class="cardsContainer">
+                    <a href="shakshouka.html" class="card">
+                        <div>
+                            <h2>Shakshouka</h2>
+                        </div>
+                    </a>
+
+                    <a href="grilled-cheese.html" class="card">
+                        <div>
+                            <h4>Grilled Cheese Sandwich</h4>
+                        </div>
+                    </a>
+
+                    <a href="mac-cheese.html" class="card">
+                        <div>
+                            <h4>Mac and Cheese</h4>
+                        </div>
+                    </a>
+
+                    <a href="manakesh.html" class="card">
+                        <div>
+                            <h4>Manakesh with Thyme</h4>
+                        </div>
+                    </a>
+
+                    <a href="vanilla-cake.html" class="card">
+                        <div>
+                            <h4>Vanilla Gourmet Cake</h4>
+                        </div>
+                    </a>
+                </div>
+
+                <a href="recipes.html" class="btn">All Recipes</a>
+            </div>
+
+            <div class="home04">
+                <h1>Our Export</h1>
+
+                <img src="assets/home/pandas/panda03.webp" alt="Panda Traveler" class="panda03">
+
+                <div>
+                    <img src="assets/home/map.webp" alt="Panda Places">
+
+                    <ul>
+                        <li>Bahrain</li>
+                        <li>Haiti</li>
+                        <li>Jordan</li>
+                        <li>KSA</li>
+                        <li>Lebanon</li>
+                        <li>Morocco</li>
+                        <li>Oman</li>
+                        <li>Palestine</li>
+                        <li>Syria</li>
+                        <li>UAE</li>
+                        <li>Turkey</li>
+                    </ul>
+
+                    <ul>
+                        <li>Djibouti</li>
+                        <li>Iraq</li>
+                        <li>Kenya</li>
+                        <li>Kuwait</li>
+                        <li>Libya</li>
+                        <li>Mauritius</li>
+                        <li>Pakistan</li>
+                        <li>Qatar</li>
+                        <li>Tanzania</li>
+                        <li>Thailand</li>
+                        <li>Yemen</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <footer>
+            <div class="content">
+                <div>
+                    <img src="assets/media/logo02.webp" alt=""> <br>
+                    <img src="assets/home/pandas/panda04.webp" alt="" class="panda-f">
+                </div>
+                <div>
+                    <h2>Find Us On</h2>
+                    <ul>
+                        <li>
+                            <img src="assets/media/youtube-168-svgrepo-com.webp" alt="">
+                            <a href="https://m.youtube.com/@ArabDairyPandaCheeseEgypt">Panda Cheese Egypt</a>
+                        </li>
+
+                        <li>
+                            <img src="assets/media/instagram-svgrepo-com (1).webp" alt="">
+                            <a href="https://www.instagram.com/pandacheeseegypt?igsh=MW5hNmkzZDh6aDd4dg==">Panda Cheese
+                                Egypt</a>
+                        </li>
+
+                        <li>
+                            <img src="assets/media/facebook-svgrepo-com (1).webp" alt="">
+                            <a href="https://www.facebook.com/PandaCheeseEgypt?mibextid=LQQJ4d">
+                                Panda Cheese Egypt
+                            </a>
+                        </li>
+
+                        <li>
+                            <img src="assets/media/phone-calling-svgrepo-com.webp" alt="">
+                            
+                            <a href="tel:16932">16932</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div>
+                    <h2>Quick Contact</h2>
+
+                    <form action="">
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" name="" placeholder="Email Address" id="" required>
+                        <textarea name="message" id="" placeholder="Your Message" required rows="4"></textarea>
+
+                        <input type="submit" value="Send" class="btn">
+                    </form>
+                </div>
+            </div>
+
+            <hr>
+
+            <p class="footer-p">&copy; Arab Dairy &reg; &bullet; All Rights Reserved &bullet; Terms & Conditions
+                &bullet; Privacy &bullet; Cookie Management Policy</p>
+
+        </footer>
+
+        <!-- </div> -->
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
